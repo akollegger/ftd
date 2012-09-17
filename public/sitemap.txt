@@ -1,0 +1,10 @@
+
+http://followthedata.org/archive.html
+http://followthedata.org/atom.xml
+http://followthedata.org/categories.html
+http://followthedata.org/index.html
+http://followthedata.org/pages.html
+http://followthedata.org/sitemap.txt
+http://followthedata.org/tags.html
+
+http://followthedata.org/lessons/2011/12/29/jekyll-introduction
