@@ -6,7 +6,18 @@ tagline: Exploring the Political Power Graph
 {% include JB/setup %}
 
 
-<h2>Campaign Shop</h2>
+<script type="text/javascript">
+  var ShopifyStoreConfig = {shop:"neo4j.myshopify.com", collections:[8159141]};
+  (function() {
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; 
+    s.src = "http://widgets.shopifyapps.com/assets/shopifystore.js";
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();  
+</script>
+<noscript>Please enable javascript, or <a href="http://neo4j.myshopify.com">click here</a> to visit my <a href="http://www.shopify.com/tour/ecommerce-website">ecommerce web site</a> powered by Shopify.</noscript>
+
+
+<h2>Follow The Swag</h2>
 
 <ul id="tbQuickSand">
 <!-- 
@@ -19,9 +30,10 @@ tagline: Exploring the Political Power Graph
 
 <!-- product holder -->
 <div id="productHolder">
+
 	<div data-id="1" data-type="stickers" class="singleItem">
-        <div class="thumb">
-            <a href="javascript:void()" title="Product 1">
+        <div class="thumb doubleFramed">
+            <a href="{{ site.baseurl }}/assets/images/shop/follow-data-large.png" title="Sticker">
                 <img src="{{ site.baseurl }}/assets/images/shop/follow-data.png" alt="Follow the Data">
             </a>
         </div>
@@ -33,8 +45,7 @@ tagline: Exploring the Political Power Graph
         
         <div class="price">
         	$1.95
-                                
-        	<a href="javascript:void()" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
+        	<a href="#shopify-store" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
         </div>
 
         <div class="horDashed">
@@ -43,7 +54,7 @@ tagline: Exploring the Political Power Graph
     
 	<div data-id="2" data-type="stickers" class="singleItem">
         <div class="thumb">
-            <a href="javascript:void()" title="Product 2">
+            <a href="{{ site.baseurl }}/assets/images/shop/think-global-large.png" title="Sticker">
                 <img src="{{ site.baseurl }}/assets/images/shop/think-global.png" alt="Think Globally, Query Locally">
             </a>
         </div>
@@ -56,7 +67,7 @@ tagline: Exploring the Political Power Graph
         <div class="price">
         	$1.95
                                 
-        	<a href="javascript:void()" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
+            <a href="#shopify-store" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
         </div>
 
         <div class="horDashed">
@@ -65,8 +76,8 @@ tagline: Exploring the Political Power Graph
     
 	<div data-id="3" data-type="buttons" class="singleItem">
         <div class="thumb">
-            <a href="javascript:void()" title="Product 3">
-                <img src="{{ site.baseurl }}/assets/images/shop/follow-data.png" alt="Follow the Data">
+            <a href="{{ site.baseurl }}/assets/images/shop/follow-data-large.png" title="Button">
+                <img src="{{ site.baseurl }}/assets/images/shop/follow-data.png" alt="Follow the Data" >
             </a>
         </div>
         
@@ -78,7 +89,7 @@ tagline: Exploring the Political Power Graph
         <div class="price">
         	$3.95
                                 
-        	<a href="javascript:void()" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
+            <a href="#shopify-store" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
         </div>
 
         <div class="horDashed">
@@ -87,7 +98,7 @@ tagline: Exploring the Political Power Graph
     
 	<div data-id="4" data-type="stickers " class="singleItem">
         <div class="thumb">
-            <a href="javascript:void()" title="Product 4">
+            <a href="{{ site.baseurl }}/assets/images/shop/think-global-large.png" title="Button">
             <img src="{{ site.baseurl }}/assets/images/shop/think-global.png" alt="Think Globally, Query Locally">
             </a>
         </div>
@@ -100,7 +111,7 @@ tagline: Exploring the Political Power Graph
         <div class="price">
         	$3.95
                                 
-        	<a href="javascript:void()" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
+            <a href="#shopify-store" title="Add to cart" class="tinyButton roundButtonX">Add to Cart</a>
         </div>
 
         <div class="horDashed">
@@ -110,13 +121,5 @@ tagline: Exploring the Political Power Graph
 </div>
 <!-- product holder -->
     
-<div class="pagination">
-    <a href="javascript:void()" title="Previous" class="tinyButton roundButton">Previous</a>
-    <span class="current roundButton">1</span>
-    <a href="javascript:void()" title="Page 2" class="tinyButton roundButton">2</a>
-    <a href="javascript:void()" title="Page 3" class="tinyButton roundButton">3</a>
-    <a href="javascript:void()" title="Page 4" class="tinyButton roundButton">4</a>
-    <a href="javascript:void()" title="Next" class="tinyButton roundButton">Next</a>
-</div>
 
 </div>

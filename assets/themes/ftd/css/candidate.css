@@ -576,6 +576,15 @@ ul.footerSoc li a.twitter {background-image: url('{{ ASSET_PATH }}/images/footer
 ul.footerSoc li a.facebook {background-image: url('{{ ASSET_PATH }}/images/footerSocFacebook.png');}
 ul.footerSoc li a.linkedin {background-image: url('{{ ASSET_PATH }}/images/footerSocLinkedin.png');}
 
+
+ul.bioSoc {list-style: none; margin: 10px 0 0 0; overflow: hidden;}
+ul.bioSoc li, ul.footerSoc li a {width: 26px; height: 26px;}
+ul.bioSoc li {float: left; margin: 0 4px !important;}
+ul.bioSoc li a {display: block; text-indent: -9999px; background: center top no-repeat;}
+ul.bioSoc li a.twitter {background-image: url('{{ ASSET_PATH }}/images/bioSocTwitter.png');}
+ul.bioSoc li a.facebook {background-image: url('{{ ASSET_PATH }}/images/bioSocFacebook.png');}
+ul.bioSoc li a.linkedin {background-image: url('{{ ASSET_PATH }}/images/bioSocLinkedin.png');}
+
 #footer h3 {font-style: normal; text-transform: uppercase; color: #fff; font-size: 18px;}
 
 /* 5.1 Bottom nav and disclaimer */
