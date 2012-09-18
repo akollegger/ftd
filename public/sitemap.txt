@@ -6,6 +6,7 @@ http://followthedata.org/atom.xml
 http://followthedata.org/biography.html
 http://followthedata.org/categories.html
 http://followthedata.org/contact.html
+http://followthedata.org/credits.html
 http://followthedata.org/faq.html
 http://followthedata.org/faq2.html
 http://followthedata.org/faq3.html

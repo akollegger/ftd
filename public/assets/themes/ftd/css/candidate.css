@@ -196,10 +196,10 @@ h2 a, h3 a, h4 a, h5 a, h6 a {color: #004375;}
 #header.purple > div, #header.purpleBokeh > div, #header.purpleFlag > div {background: url('/assets/themes/ftd/images/backgrounds/header/top_menu_purple.png') center top scroll repeat-x;}
 
 #topNav {height: 41px;}
-#topNav div {font-size: 11px; float: right; color: #fff; height: 19px; padding: 8px 0 0 0;}
+#topNav div {font-size: 11px; float: right; color: #fff; height: 19px; padding: 0px 0 0 0;}
 #topNav a {color: #fff; float: left; height: 23px; line-height: 25px;}
 #topNav a.signUp { padding: 0 0 0 22px; margin: 0 20px 0 0; background: url('/assets/themes/ftd/images/signUp.png') left 3px no-repeat;}
-#topNav a.neotech { padding: 0 0 0 24px; margin: 0 20px 0 0; background: url('/assets/themes/ftd/images/neotech.png') left 3px no-repeat; height: 36px;}
+#topNav a.neotech { padding: 10px 0 0 24px; margin: 0 20px 0 0; background: url('/assets/themes/ftd/images/neotech.png') left 3px no-repeat; height: 30px;}
 #topNav a.login { padding: 0 0 0 32px; margin: 0 0 0 20px; background: url('/assets/themes/ftd/images/login.png') left top no-repeat; width: 48px; text-decoration: none;}
 #topNav a.login:hover, #topNav a.login.active {background-position: left bottom;}
 #topNav span {float: left;}

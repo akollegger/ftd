@@ -9,9 +9,9 @@
                 
         <div class="clear"></div>
         
-        <div id="logo"><h1><a href="index.html" title="Back to Home">Candidate - Wordpress Theme</a></h1></div>
+        <div id="logo"><h1><a href="{{ HOME_PATH }}" title="Back to Home">Follow the Data</a></h1></div>
         
-        <div id="donate"><a href="getInvolved.html" title="Donate Now" class="whiteButton bigButton right roundButtonX">Donate Now</a></div>
+        <div id="donate"><a href="https://github.com/akollegger/ftd" title="Fork me on GitHub" class="whiteButton bigButton right roundButtonX">Fork me on GitHub</a></div>
     </div>
     </div>
 </div>
@@ -28,7 +28,7 @@
         <div id="navigationBckg">
         <div id="navigation">
           <ul class="navigation">
-                <li class="current_page_item"><a href="index.html" title="Home">Home</a>
+                <li class="current_page_item"><a href="{{ HOME_PATH }}" title="Home">Home</a>
                     <ul>
                         <li><a href="404.html" title="404">404 Page</a></li>
                         <li><a href="landing.html" title="Landing Page">Landing Page</a></li>
@@ -79,11 +79,7 @@
                 </li>
 
                 <li><a href="getInvolved.html" title="Get Involved">Get Involved</a></li>
-                <li><a href="shop.html" title="Campaign Shop">Campaign Shop</a>
-                  <ul>
-                      <li><a href="shop2.html" title="Campaign Shop - version 2">Campaign Shop - version 2</a></li>
-                    </ul>
-                </li>
+                <li><a href="shop.html" title="Buy Stuff">Buy Stuff</a></li>
                 <li><a href="contact.html" title="Contact">Contact</a></li>
             </ul>
         </div>
@@ -109,8 +105,8 @@
     <!-- CAMPAIGN -->
     <div id="campaign" class="width1000">
       <div id="campaignTrail">
-          <h3>On <span>The </span> Campaign Trail</h3>
-            <div class="checkTheDates">Check the dates and see when we're in your town!</div>
+          <h3>Live <span>Coding </span> Events</h3>
+            <div class="checkTheDates">Join fellow developers for a data dive, leading up to Election Day!</div>
             
             <div id="campaignSlides">
             
@@ -118,40 +114,41 @@
                 
                   <!-- Single slide -->
                   <div class="slide">
-                      <a href="newsSingle.html">New York City</a>
-                      <img src="{{ ASSET_PATH }}/images/tb/image01-150.jpg" alt="New York City">
+                      <a href="http://www.meetup.com/nygraph/events/79247702/">New York City</a>
+                      <img src="{{ ASSET_PATH }}/ftd/images/meetups/nygraph-slide.jpg" alt="New York City">
                         <div class="caption">
                           <h4>New York City</h4>
-                            <p>From July 16th to July 18th</p>
+                            <p>September 25th</p>
                         </div>
                     </div>
                   <!-- .Single slide -->
 
                   <div class="slide">
-                      <a href="newsSingle.html">Chicago</a>
-                      <img src="{{ ASSET_PATH }}/images/tb/image02-150.jpg" alt="Chicago">
+                      <a href="http://www.meetup.com/graphdb-sf/events/77901882/">San Francisco</a>
+                      <img src="{{ ASSET_PATH }}/ftd/images/meetups/graphdb-sf-slide.jpg" alt="San Francisco">
                         <div class="caption">
-                          <h4>Chicago</h4>
-                            <p>From July 19th to July 21th</p>
+                          <h4>San Francisco</h4>
+                            <p>September 25th</p>
                         </div>
                     </div>
 
                   <div class="slide">
-                      <a href="newsSingle.html">Washington DC</a>
-                      <img src="{{ ASSET_PATH }}/images/tb/image03-150.jpg" alt="Washington DC">
+                      <a href="http://graphconnect.com">GraphConnect</a>
+                      <img src="{{ ASSET_PATH }}/ftd/images/meetups/graphconnect-slide.jpg" alt="GraphConnect">
                         <div class="caption">
-                          <h4>Washington DC</h4>
-                            <p>From July 22th to July 24th</p>
+                          <h4>GraphConnect</h4>
+                            <p>From Nov 5th to Nov 6th</p>
                         </div>
                     </div>
                 </div>
                 
                 <ul class="pagination">
-                  <li><a href="#0">July 16</a></li>
-                  <li><a href="#1">July 19</a></li>
-                  <li><a href="#2">July 22</a></li>
+                  <li><a href="#0">Sept 25</a></li>
+                  <li><a href="#1">Sept 25</a></li>
+                  <li><a href="#2">Nov 5-6</a></li>
                 </ul>
             </div>
+
         </div>
         
         <div id="campaignCountdown"></div>
@@ -168,39 +165,31 @@
         <div class="container_12">
         
         <div class="grid_3">
-          <h3>Latest posts</h3>
+          <h3>Sponsors</h3>
             
             <ul>
-              <li><a href="newsSingle.html">Lorem ipsum dolor sit amet &raquo;</a></li>
-              <li><a href="newsSingle.html">Sed ut perspiciatis unde omnis &raquo;</a></li>
-              <li><a href="newsSingle.html">Li Europan lingues es membres &raquo;</a></li>
-              <li><a href="newsSingle.html">Cum sociis natoque penatibus &raquo;</a></li>
-              <li><a href="newsSingle.html">Nemo enim ipsam voluptatem quia &raquo;</a></li>
-                <li><a href="newsSingle.html">On refusa continuar payar &raquo;</a></li>
-              <li><a href="newsSingle.html">Lorem ipsum dolor sit amet &raquo;</a></li>
-              <li><a href="newsSingle.html">Sed ut perspiciatis unde omnis &raquo;</a></li>
+              <li><a href="http://neotechnology.com">Neo Technology &raquo;</a></li>
+              <li><a href="http://heroku.com">Heroku &raquo;</a></li>
+              <li><a href="http://etsy.com">Etsy &raquo;</a></li>
             </ul>
         </div>
         
         <div class="grid_3">
-          <h3>Photos</h3>
+          <h3>Powered By</h3>
             
             <div class="photos">
-              <a href="{{ ASSET_PATH }}/images/tb/image01.jpg" rel="prettyPhoto[footer]"><img src="{{ ASSET_PATH }}/images/tb/image01-thumb.jpg" alt="Image 01"></a>
-                Image 01 description - Lorem ipsum dolor sit amet
+              <a href="http://neo4j.org"><img src="{{ ASSET_PATH }}/ftd/images/logos/neo4j-thumb.png" alt="Neo4j"></a>
+                Neo4j - the graph database, making sense of data.
             </div>
             
-            <div class="photos">
-              <a href="{{ ASSET_PATH }}/images/tb/image02.jpg" rel="prettyPhoto[footer]"><img src="{{ ASSET_PATH }}/images/tb/image02-thumb.jpg" alt="Image 02"></a>
-                Image 02 description - Sed ut perspiciatis unde omnis
-            </div>
         </div>
         
         <div class="grid_3">
-          <h3>About Us</h3>
+          <h3>About This</h3>
             
             <p>
-            <a href="index.html">Candidate - Your Political Site template</a> is designed specifically for political and public figures. Drawing inspiration from the modern political arena and experience in building politically themed websites this design is flexible enough to fit any political option and social issue. With a few simple adjustments your site can go from a serious campaign presentation to a more informal grassroots movement...
+            <a href="{{ HOME_PATH }}">Follow The Data</a> is a project designed to explore the "Political Power Graph"
+            derived from <a href="http://www.fec.gov/finance/disclosure/ftp_download.shtml">FEC Campaign Finance Data</a>.
             </p>
             
         </div>
@@ -209,20 +198,16 @@
           <h3>Contact Us</h3>
             
             <p>
-            12345 Street Name,<br>
-      City Name,<br>
-            12345 Zip Code,<br>
-      State, Province,<br>
-      Country<br><br>
+            37 E 4th Avenue, Suite1<br>
+            San Mateo, 94401<br>
+            California<br><br>
 
-      Phone: (123) 456-789<br>
-      E-mail: <a href="mailto:info@themeblossom.com?subject=Candidate">info@themeblossom.com</a>
+      Phone: (855) 636-4532<br>
+      E-mail: <a href="mailto:info@neo4j.org?subject=Follow the Data">info@neo4j.org</a>
             </p>
             
             <ul class="footerSoc">
               <li><a href="https://twitter.com/#!/neo4j" title="Follow Us on Twitter" class="twitter">Follow Us on Twitter</a></li>
-              <li><a href="https://twitter.com/#!/ThemeBlossom" title="Follow Us on Facebook" class="facebook">Follow Us on Facebook</a></li>
-              <li><a href="https://twitter.com/#!/ThemeBlossom" title="Follow Us on LinkedIn" class="linkedin">Follow Us on LinkedIn</a></li>
             </ul>
             
         </div>
