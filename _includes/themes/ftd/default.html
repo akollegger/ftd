@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <!-- <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"> -->
+
+    <!-- STYLES -->
+    <link href='{{ ASSET_PATH }}/css/fonts/lora.css' rel='stylesheet' type='text/css'>
+    <link href='{{ ASSET_PATH }}/css/fonts/greatVibes.css' rel='stylesheet' type='text/css'>
+    <link href="{{ ASSET_PATH }}/css/grid960.css" rel="stylesheet" type="text/css">
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
+
+    <!-- PRETTY PHOTO -->
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <link href="{{ ASSET_PATH }}/js/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+
+    <!-- SLIDES -->
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.easing.1.3.js"></script>
+
+    <!-- JQUERY COUNTDOWN -->
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.countdown.min.js"></script>
+
+    <!-- THEME BLOSSOM SCRIPTS AND STYLES -->
+    <link href="{{ ASSET_PATH }}/css/candidate.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/themeblossom.js"></script>
+
+
+    <!-- Le fav and touch icons -->
+    <link rel="icon" type="image/png" href="{{ ASSET_PATH }}/images/favicon.png">
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.ico">
+    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+<a id="topAnchor"></a>
+
+    {{ content }}
+
+    {% include JB/analytics %}
+  </body>
+</html>

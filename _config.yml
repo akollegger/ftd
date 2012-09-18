@@ -2,7 +2,7 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "web.rb", "public", ".git"]
 auto: true
 pygments: true
 destination: ./public
@@ -13,10 +13,10 @@ destination: ./public
 title : Follow the Data
 tagline: Exploring the Political Power Graph
 author :
-  name : Andreas Kollegger
+  name : Neo Technology
   email : akollegger@neotechnology.com
-  github : akollegger
-  twitter : akollegger
+  github : neo4j
+  twitter : neo4j
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed

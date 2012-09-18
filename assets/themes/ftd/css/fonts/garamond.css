@@ -1,0 +1,3 @@
+/* EB Garamond */
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+h2, h3, h4, h5, h6, blockquote, .button, .tinyButton, .bigButton, #landing input, #landing .infoBox, #navigation a, #campaignSlides, #campaignCountdown, ul.blue, ul.red, .issuesThumb p a, #gallery .thumbHolder p, ul#tbQuickSand li a, #productHolder .singleItem p, #contactExtra ul li a, #getInvolved p.donation label, #getInvolved strong, #slider .slide li {font-family: 'EB Garamond', serif;}

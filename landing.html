@@ -1,0 +1,42 @@
+---
+layout: landing
+title: Coming Soon
+tagline: Exploring the Political Power Graph
+
+---
+{% include JB/setup %}
+
+
+<div id="landing">
+	<p>Hello there! We are not ready yet, but why don't you leave your email address and<br>
+	we'll let you know as soon as we're in business!</p>
+    
+    <div class="formHolder">
+    	<form action="http://na-l.marketodesigner.com/index.php/leadCapture/save" method="post" id="newsletterForm">
+        	<input type="text" name="email" id="email" value="Type in Your Email Address..." onBlur="if (this.value == '') {this.value = 'Type in Your Email Address...'};" 
+            onFocus="if (this.value == 'Type in Your Email Address...') {this.value = '';}">
+            <input type="submit" value="Subscribe" class="redButton roundButton" id="submit">
+        
+            <!-- marketo hidden fields -->
+            <input name="_marketo_comments" value="" type="hidden">
+            <input name="lpId" value="37" type="hidden">
+
+            <input name="subId" value="78" type="hidden">
+            <input name="kw" value="" type="hidden">
+            <input name="cr" value="" type="hidden">
+            <input name="searchstr" value="" type="hidden">
+            <input name="lpurl" value="http://info.neotechnology.com/newsletter-thank-you2012.html?cr={creative}&amp;kw={keyword}" type="hidden">
+            <input name="formid" value="7" type="hidden">
+            <input name="returnURL" value="http://info.neotechnology.com/newsletter-thank-you2012.html" type="hidden">
+            <input name="retURL" value="http://info.neotechnology.com/newsletter-thank-you2012.html" type="hidden">
+            <input name="_mkt_disp" value="return" type="hidden">
+
+            <input name="_mkt_trk" value="" type="hidden">
+
+        	<span>Valid email required!</span>
+        </form>
+
+    </div>
+    
+    <div class="infoBox greenBox">Success!</div>
+</div>

@@ -1,10 +1,31 @@
 
+http://followthedata.org/404.html
 http://followthedata.org/archive.html
+http://followthedata.org/assets/themes/ftd/css/candidate.css
 http://followthedata.org/atom.xml
+http://followthedata.org/biography.html
 http://followthedata.org/categories.html
+http://followthedata.org/contact.html
+http://followthedata.org/faq.html
+http://followthedata.org/faq2.html
+http://followthedata.org/faq3.html
+http://followthedata.org/gallery.html
+http://followthedata.org/generic.html
+http://followthedata.org/getInvolved.html
 http://followthedata.org/index.html
+http://followthedata.org/landing.html
+http://followthedata.org/news.html
+http://followthedata.org/news2.html
+http://followthedata.org/newsSingle.html
 http://followthedata.org/pages.html
+http://followthedata.org/shop.html
+http://followthedata.org/shop2.html
+http://followthedata.org/signUp.html
 http://followthedata.org/sitemap.txt
 http://followthedata.org/tags.html
+http://followthedata.org/theIssues.html
+http://followthedata.org/theIssues2.html
+http://followthedata.org/videos.html
+http://followthedata.org/videos2.html
 
 http://followthedata.org/lessons/2011/12/29/jekyll-introduction

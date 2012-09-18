@@ -1,0 +1,35 @@
+---
+layout: page
+title: Sign Up
+tagline: Exploring the Political Power Graph
+---
+{% include JB/setup %}
+
+
+<h2>Sign Up</h2>
+
+<form action="javascript:void()" method="post" id="signUp">
+	<p><input name="email" id="email" type="text" value="Your Email Address..." onfocus="if (this.value == 'Your Email Address...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Your Email Address...'}"></p>
+	<p><input name="username" type="text" value="Choose Username..." onfocus="if (this.value == 'Choose Username...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Choose Username...'}"></p>
+	<p><input name="password" type="text" value="Password..." onfocus="if (this.value == 'Password...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Password...'}"></p>
+	<p><input name="password2" type="text" value="Repeat Password..." onfocus="if (this.value == 'Repeat Password...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Repeat Password...'}"></p>
+    
+    <div class="horDashed"></div>
+    
+    <h4>Tell Us Something About You</h4>
+    
+ 	<p><input name="fname" type="text" value="Your First Name" onfocus="if (this.value == 'Your First Name') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Your First Name'}"></p>
+ 	<p><input name="lname" type="text" value="Your First Name" onfocus="if (this.value == 'Your First Name') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Your First Name'}"></p>
+ 	<p><input name="address" type="text" value="Street Address..." onfocus="if (this.value == 'Street Address...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Street Address...'}"></p>
+ 	<p><input name="city" type="text" value="City..." onfocus="if (this.value == 'City...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'City...'}"></p>
+ 	<p><input name="state" type="text" value="State..." onfocus="if (this.value == 'State...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'State...'}"></p>
+ 	<p><input name="zip" type="text" value="Zip..." onfocus="if (this.value == 'Zip...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Zip...'}"></p>
+ 	<p><input name="phone" type="text" value="Phone Number..." onfocus="if (this.value == 'Phone Number...') {this.value = ''}" onblur="if (this.value == '') {this.value = 'Phone Number...'}"></p>
+    
+    
+    <div class="width50 right"><input type="submit" class="bigButton roundButtonX right" value="Submit"></div>
+    
+    <div class="width50"><p><input name="citizen" type="checkbox" value="1"> <label for="citizen">I confirm that I am a citizen</label></p></div>
+    <div class="width50"><p><input name="newsletters" type="checkbox" value="1"> <label for="newsletters">I want to receive newsletters and offers</label></p></div>
+   
+</form>
